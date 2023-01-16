@@ -9,9 +9,10 @@
 ## 👨‍💻스터디 참여자
 <table>
   <tr>
-      <td align="center"><a href="https://github.com/ezzange"><img src="https://avatars.githubusercontent.com/u/63578094?v=4" width="100px;" alt=""/><br /><sub><b>ezzange</b></sub></a><br />
+      <td align="center"><a href="https://github.com/ezzange"><img src="https://user-images.githubusercontent.com/68528752/212696224-397d9107-3b26-4cf0-aa26-4841f11ec4d7.jpeg" width="100px;" alt=""/><br /><sub><b>ezzange</b></sub></a><br />
     </td>
     <td align="center"><a href="https://github.com/Jeong-jeong"><img src="https://avatars.githubusercontent.com/u/68528752?v=4" width="100px;" alt=""/><br /><sub><b>Jeong-jeong</b></sub></a><br />
     </td>
   </tr>
 </table>
+
