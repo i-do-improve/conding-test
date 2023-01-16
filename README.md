@@ -1,0 +1,17 @@
+# 1일 1 코테 Repository
+
+
+## ✔ 스터디 목적 및 목표
+- 2023년 하루 한잔 커피와 함께 시작하는 코테 준비
+- 각 참여자의 폴더에서 최소 하루에 한개씩 코테를 풀고 푸쉬
+
+
+## 👨‍💻스터디 참여자
+<table>
+  <tr>
+      <td align="center"><a href="https://github.com/ezzange"><img src="https://avatars.githubusercontent.com/u/63578094?v=4" width="100px;" alt=""/><br /><sub><b>ezzange</b></sub></a><br />
+    </td>
+    <td align="center"><a href="https://github.com/Jeong-jeong"><img src="https://avatars.githubusercontent.com/u/68528752?v=4" width="100px;" alt=""/><br /><sub><b>Jeong-jeong</b></sub></a><br />
+    </td>
+  </tr>
+</table>
