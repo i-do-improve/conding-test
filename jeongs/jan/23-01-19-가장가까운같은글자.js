@@ -2,7 +2,7 @@
 // 2. 현 위치에서 0번 index까지 순회하며 curIndex++, 같은 문자열이 있으면 result에 push, return; (return 되나?)
 
 function solution(s) {
-  let result = Array.from(Array(s.length)).map((value) => {return -1});
+  let result = Array.from(Array(s.length)).map(() => -1);
   const sArray = s.split('');
   
   sArray.forEach((string, index) => {
