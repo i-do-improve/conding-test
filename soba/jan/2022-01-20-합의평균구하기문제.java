@@ -4,6 +4,6 @@ public double solution(int[] numbers) {
             answer += numbers[i];}
     answer = (answer / numbers.length);
     return answer;
-        // -> return answer / number.length; : return에 바로 넣어주면 더 깔끔하다!
+        // -> return answer / number.length; : return에 바로 넣어주면 더 깔끔하다!!
     }
 }
