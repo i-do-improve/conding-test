@@ -6,7 +6,7 @@ function solution(number, limit, power) {
     return numbers.reduce((acc, cur) => {
         const countDivision = getDivision(cur).length;
         
-        return (countDivision > limit) ? acc + power : acc + countDivision
+        return (countDivision > limit) ? acc + power : acc + countDivision;
     }, 0);
     
 }
