@@ -15,7 +15,7 @@ const getDivision = (num) => {
     const divisors = [];
     
     for (let i = 1; i <= num / 2; i++) {
-        // i로 나눴을 때 나머지가 이면 약수
+        // i로 나눴을 때 나머지가 0이면 약수
         if (num % i === 0) divisors.push(i); 
     }
     
