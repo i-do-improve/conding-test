@@ -1,7 +1,7 @@
 // number까지의 자연수 배열 만들기
-// 약수의 개수를 구한 뒤, 제한 수치를 넘으면 제한 수치를 더하고, 아닐 경우 약수의 개수 더하기.
+// 약수의 개수를 구한 뒤, 제한 수치를 넘으면 power를 더하고, 아닐 경우 약수의 개수 더하기.
 function solution(number, limit, power) {
-    const numbers = Array.from(new Array(number)).map((_, index) => index + 1);
+    const numbers = Array.from(new Array(number), (_, index + ).map((_, index) => index + 1);
     
     return numbers.reduce((acc, cur) => {
         const countDivision = getDivision(cur).length;
