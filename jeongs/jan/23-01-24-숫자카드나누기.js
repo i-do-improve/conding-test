@@ -14,7 +14,7 @@ function solution2(arrayA, arrayB) {
 
     if (aResult && bResult) return Math.max(aResult, bResult);
     if (!aResult && !bResult) return 0;
-    return aResult ? aResult : bResult;
+    return aResult || bResult;
 }
     
 const getResult = (truthyArray, falsyArray) => {
