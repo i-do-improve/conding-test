@@ -9,10 +9,6 @@
 // 11 ~ 18번까지 런타임 에러가 남. 나머지는 다 통과.
 
 function solution2(arrayA, arrayB) {
-    // arrayA의 가장 작은 값
-    const divisions = getDivision(Math.min(...arrayA)).sort((a, b) => b - a);
-    const result = [];
-    // divisions 순회하며 arrayA의 약수이고, arrayB의 약수가 아닌지 찾음.
     const aResult = getResult(arrayA, arrayB);
     const bResult = getResult(arrayB, arrayA);
    
