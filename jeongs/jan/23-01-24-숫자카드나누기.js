@@ -1,9 +1,9 @@
 // 두 조건중 하나를 만족하는 가장 큰 양의 정수
 // 만약, 조건을 만족하는 a가 없다면, 0을 return
 
-// arrayA의 최소공배수가 있으면, arrayB를 돌며 나머지가 0이 아닌지 체크 => 맞다면 return
+// arrayA의 최대공약수가 있으면, arrayB를 돌며 나머지가 0이 아닌지 체크 => 맞다면 return
 // 없다면, 
-    // arrayB의 최소공배수를 찾고 없다면 return 0
+    // arrayB의 최대공약수를 찾고 없다면 return 0
     // 있다면 arrayA를 돌며 나머지가 0이 아닌지 체크 -> 맞다면 return
 
 // 11 ~ 18번까지 런타임 에러가 남. 나머지는 다 통과. -> 시간 초과때문이었음 ;
@@ -11,17 +11,17 @@
 function solution2(arrayA, arrayB) {
     const aResult = getResult(arrayA, arrayB);
     const bResult = getResult(arrayB, arrayA);
-   
+
     if (aResult && bResult) return Math.max(aResult, bResult);
     if (!aResult && !bResult) return 0;
     return aResult ? aResult : bResult;
 }
     
 const getResult = (truthyArray, falsyArray) => {
-    const divisions = getDivision(truthyArray).sort((a, b) => b - a);
+    const divisions = getDivision(truthyArray[0]).sort((a, b) => b - a);
     for (const division of divisions) {
-        const truthy = truthyArray.every((b) => (b === division) ? true : b % division === 0);
-        const falsy = falsyArray.every((a) => (a === division) ? false : a % division > 0);
+        const truthy = truthyArray.every((value) => (value === division) ? true : value % division === 0);
+        const falsy = falsyArray.every((value) => (value === division) ? false : value % division > 0);
         
         if (truthy && falsy) {
             return division;
