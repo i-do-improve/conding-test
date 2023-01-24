@@ -6,10 +6,6 @@
     // arrayB의 최소공배수를 찾고 없다면 return 0
     // 있다면 arrayA를 돌며 나머지가 0이 아닌지 체크 -> 맞다면 return
 
-// arrayA의 최소공배수가 있으면, arrayB를 돌며 나머지가 0이 아닌지 체크 => 맞다면 return
-// 없다면, 
-    // arrayB의 최소공배수를 찾고 없다면 return 0
-    // 있다면 arrayA를 돌며 나머지가 0이 아닌지 체크 -> 맞다면 return
 // 11 ~ 18번까지 런타임 에러가 남. 나머지는 다 통과.
 
     function solution(arrayA, arrayB) {
