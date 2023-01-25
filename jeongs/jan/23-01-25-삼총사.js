@@ -12,7 +12,9 @@ function solution(number) {
             result++;
         }
         if (second === length - 1) {
-            first++, second = first + 1, third = second + 1;
+            first++;
+            second = first + 1;
+            third = second + 1;
             continue;
         }
         if (third === length) {
