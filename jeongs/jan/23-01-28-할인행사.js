@@ -12,7 +12,7 @@ function solution(want, number, discount) {
     let result = 0;
     for (let i = 0; i < discount.length; i++) {
         const cut10Day = discount.slice(i, i + 10);
-        if (cut10Day.length < 10) break;
+        if (cut10Day.length !== 10) break;
         let flag = true;
         
         for (let j = 0; j < want.length; j++) {
