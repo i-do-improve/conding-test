@@ -11,12 +11,12 @@
 // 마지막 map으로 Index만 뽑기
 
 function solution(N, stages) {
-    let index = 0;
+    let index = 1;
     let clear = stages.length;
     const failureSet = [];
-    while(index < N) {
-        const unClear = stages.filter((stage) => stage === index + 1).length;
-        failureSet.push([index + 1, unClear / clear]);
+    while(index <= N) {
+        const unClear = stages.filter((stage) => stage === index).length;
+        failureSet.push([index, unClear / clear]);
         clear -= unClear;
         index++;
     }
