@@ -1,4 +1,4 @@
-public class 공던지기 {
+public class 2023-02-07-공던지기 {
 
     // 틀린 풀이
 
