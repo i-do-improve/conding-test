@@ -9,3 +9,6 @@
 out
 gen
 .gradle
+
+### Delete mac DS.Store files
+.DS_Store
