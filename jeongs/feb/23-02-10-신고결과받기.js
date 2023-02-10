@@ -12,9 +12,9 @@ function 통과코드(id_list, report, k) {
     const result = id_list.map((_) => 0);
     const reporteeMap = getReporteeMap(report);
     const reportees = Object
-    .entries(reporteeMap)
-    .filter(([_, reporter]) => reporter.size >= k)
-    .flatMap(([_, reporter]) => Array.from(reporter));
+    .values(reporteeMap)
+    .filter((reporter) => reporter.size >= k)
+    .flatMap((reporter) => Array.from(reporter));
     
     reportees.forEach((reportee) => {
         const foundIndex = id_list.findIndex((reporter) => reportee === reporter);
