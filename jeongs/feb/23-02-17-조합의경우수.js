@@ -11,7 +11,7 @@ function solution(n, r) {
     return memos[n][r];
   }
 
-  return DFS(n, r, 0);
+  return DFS(n, r);
 }
 
 const n = 33;
