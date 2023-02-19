@@ -1,4 +1,4 @@
-class n의배수고르기 {
+class n의배수고르기기 {
     public int[] solution(int n, int[] numlist) {
         int length = 0;
         
