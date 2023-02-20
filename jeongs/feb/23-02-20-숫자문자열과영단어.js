@@ -3,21 +3,7 @@
 // 합친 후 numbers 배열에 키로 있다면 해당 숫자를 반환해서 답에 추가
 function solution(s) {
     
-  let answer = '';
-  
-  const numbers = {
-      'zero': 0, 
-      'one': 1, 
-      'two': 2,
-      'three': 3, 
-      'four': 4, 
-      'five': 5,
-      'six': 6, 
-      'seven': 7, 
-      'eight': 8,
-      'nine': 9,
-  };
-  
+  let answer = '';  
   let word = '';
   
   for (const str of s) {
@@ -33,5 +19,17 @@ function solution(s) {
   }
   
   return +answer;
-  
 }
+
+const numbers = {
+  'zero': 0, 
+  'one': 1, 
+  'two': 2,
+  'three': 3, 
+  'four': 4, 
+  'five': 5,
+  'six': 6, 
+  'seven': 7, 
+  'eight': 8,
+  'nine': 9,
+};
