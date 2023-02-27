@@ -18,6 +18,7 @@
     </td>
     <td align="center"><a href="https://github.com/sobaman"><img src="https://user-images.githubusercontent.com/68528752/213161038-1780c519-c4ed-4688-88ba-41155a74efb5.jpg" width="100px;" alt=""/><br /><sub><b>sobaman</b></sub></a><br />
     </td>
+    <td align="center"><a href="https://github.com/Daepyo-Hong"><img src="https://user-images.githubusercontent.com/23079235/221572150-0b81221f-4b29-4905-8b48-dc22d39274bb.jpeg" width="100px;" alt=""/><br /><sub><b>hdp</b></sub></a><br />
+    </td>
   </tr>
 </table>
-
