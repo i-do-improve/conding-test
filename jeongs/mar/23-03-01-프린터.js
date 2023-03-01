@@ -1,8 +1,3 @@
-// while문을 돌린다 (prioritiesHasIndex에서.length || stack[stack.length - 1].priority !== target)
-// prioritiesHasIndex에서 shift로 j를 꺼낸다.
-// 나머지 priorities에서 J보다 중요도가 높은게 존재할 경우 J를 다시 Push. 아닐 경우 J를 인쇄.
-// 
-
 function solution(priorities, location) {
     const print = [];
     const target = priorities[location]; // location에 위치하는 target이 무엇인지 찾음.
