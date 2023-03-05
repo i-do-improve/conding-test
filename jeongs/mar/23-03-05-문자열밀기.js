@@ -16,3 +16,8 @@ function solution(A, B) {
   }
   return pushCount >= A.length ? -1 : pushCount;
 }
+
+function solution2(A, B) { 
+  if (A === B) return 0;
+  return (B + B).indexOf(A);
+}
