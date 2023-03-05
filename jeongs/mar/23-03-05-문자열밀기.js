@@ -6,8 +6,6 @@ function solution(A, B) {
   // slice로 0부터 A.length - 1까지 자르고, 나머지를 잘라서 앞으로 붙인다.
   const arr = A.split('');
   let pushCount = 1;
-  const cut = arr.slice(0, A.length - pushCount);
-      const rest = arr.slice(A.length - pushCount);
   
   while (pushCount !== A.length) {
       const cut = arr.slice(0, A.length - pushCount);
@@ -16,5 +14,5 @@ function solution(A, B) {
       if (str === B) break;
       pushCount++;
   }
-  return pushCount >= A.length? -1 : pushCount;
+  return pushCount >= A.length ? -1 : pushCount;
 }
