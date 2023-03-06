@@ -8,7 +8,7 @@ class Solution {
             char ch =my_string.charAt(i);
             String str =String.valueOf(ch);
             
-            if(Character.isUpperCase(my_string.charAt(i))){ //대문자인경우
+            if(Character.isUpperCase(ch){ //대문자인경우
                 answer+=str.toLowerCase();                
             }else {
                 answer+=str.toUpperCase();        
