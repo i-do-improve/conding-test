@@ -15,10 +15,4 @@ function solution(s, n) {
   }, []).join('');
 }
 
-const calc = (max, n, cur) => {
-      if (cur + n > max) {
-          return String.fromCharCode(cur - 26 + n);
-      } else {
-          return String.fromCharCode(cur + n);    
-      }
-}
+const calc = (max, n, cur) => String.fromCharCode((cur + n > max) ? (cur - 26 + n) : (cur + n));
