@@ -1,16 +1,16 @@
-//문제 : my_string을 모두 소문자로 바꾸고 알파벳 순서대로 정렬한 문자열을 return
-//풀이 : toLowerCase() (->소문자로 변환), Sort()(->순서 정렬)를 사용하여 변환하고 return
-import java.util.Arrays;
-
+//문제 : num_list를 다음 설명과 같이 2차원 배열로 바꿔 return
+//풀이 : amswer의 원소값을 할당해주고 answer원소에 num_list원소를 하나씩 대입하여 return
 class Solution {
-    public String solution(String my_string) {
-        
-        char[] arrChar = my_string.toLowerCase().toCharArray();
-                
-        Arrays.sort(arrChar);
-        
-        String answer = new String(arrChar);
-        
+    public int[][] solution(int[] num_list, int n) {
+        int[][] answer = new int[num_list.length/n][n];
+        int count=0;
+       
+            for(int i=0; i<answer.length; i++){
+                for(int j=0; j<answer[i].length; j++){                 
+                    answer[i][j]=num_list[count]; 
+                    count++;
+                }           
+            }        
         return answer;
     }
 }
