@@ -12,9 +12,14 @@ class A로B만들기 {
         
         Arrays.sort(tmp1);
         Arrays.sort(tmp2);
-        
+
+        /*
         String str1 = String.valueOf(tmp1);
         String str2 = String.valueOf(tmp2);
+         */
+
+        String str1 = Arrays.toString(tmp1);
+        String str2 = Arrays.toString(tmp2);
         
         if(str1.equals(str2)){
             answer = 1;
