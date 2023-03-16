@@ -10,7 +10,9 @@
 // 4. join('')
 
 function solution(s) {
-    return s.split(' ').map((strings) => {
+    return s
+        .split(' ')
+        .map((strings) => {
         if (strings.length === 0) {
             return '';
         }
