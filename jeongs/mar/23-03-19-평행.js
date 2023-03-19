@@ -5,8 +5,7 @@
 
 function solution(dots) {
     // dots 배열에서 네 개의 점을 꺼낸다
-  let [p1, p2, p3, p4] = dots;
-  // 각 점에서 x와 y 좌표를 분리한다
+    const [p1, p2, p3, p4] = dots;
     
     const slope = getSlope(p1, p2);
     const slope2 = getSlope(p3, p4);
