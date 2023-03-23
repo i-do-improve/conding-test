@@ -1,6 +1,7 @@
 package mar;
 
 import java.util.Arrays;
+
 class 가까운수 {
     public int solution(int[] array, int n) {
         
