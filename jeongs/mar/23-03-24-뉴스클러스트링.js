@@ -36,7 +36,7 @@ function solution(str1, str2) {
     
 }
 
-function calcSame (array) {
+const calcSame = (array) => {
     const sets = new Map();
     array.forEach((v, i) => {
         sets.has(v) ? sets.set(v, sets.get(v) + 1) : sets.set(v, 1);
@@ -44,7 +44,7 @@ function calcSame (array) {
     return sets;
 }
 
-function setAsTwo (str) {
+const setAsTwo = (str) => {
     const result = [];
     let cutAsTwo = '';
     const checkHasntStr = /[^a-z]/gi;
