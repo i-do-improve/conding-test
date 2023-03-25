@@ -1,4 +1,4 @@
-값package mar;
+package mar;
 
 import java.util.Arrays;
 
