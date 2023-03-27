@@ -1,5 +1,6 @@
 package mar;
 
+
 class 컨트롤제트 {
     public int solution(String s) {
         int answer = 0;
