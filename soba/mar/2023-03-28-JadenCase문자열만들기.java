@@ -6,14 +6,14 @@ class JadenCase문자열만들기 {
             String[] arr = s.toLowerCase().split("");
             boolean bool = true;
 
-            for(int i = 0; i < arr.length; i++){
+            for(String str : arr){
                 if(bool){
-                    sb.append(arr[i].toUpperCase());
+                    sb.append(str.toUpperCase());
                 }else{
-                    sb.append(arr[i]);
+                    sb.append(str);
                 }
                     
-                if(arr[i].equals(" ")){
+                if(str.equals(" ")){
                     bool = true;
                 }else{
                     bool = false;
