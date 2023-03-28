@@ -4,7 +4,6 @@ package mar;
 class 컨트롤제트 {
     public int solution(String s) {
         int answer = 0;
-        
         String[] str = s.split(" ");
         
         for(int i = 0 ; i < str.length; i++){
