@@ -1,5 +1,3 @@
 package ezz.apr;
 
-public class ex {
-    
-}
+public class ex 
